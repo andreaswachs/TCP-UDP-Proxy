@@ -1,4 +1,11 @@
 # TCP-UDP-Proxy
+
+## Purpose of this fork
+
+I have forked this project to save the source code for use in relation to my bachelors project. You can view more [here](https://github.com/andreaswachs/bachelors-project)
+
+## Description
+
 A proxy server program written in C++ that can forward TCP or UDP packets to and from some pre-configured address. It's a transparent proxy in that remote clients only have to change their destination IP/PORT into those of the proxy, and the proxy will automatically forword packets according to pre-configured rules.
 
 A typical usage scenario is to bypass a company firewall that blocks packets from some limited internal IP/Subnets.
